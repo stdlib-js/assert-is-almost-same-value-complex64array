@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import isAlmostSameValueComplex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-same-value-complex64array@deno/mod.js';
+import isAlmostSameValueComplex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-same-value-complex64array@v0.1.0-deno/mod.js';
 ```
 
 #### isAlmostSameValueComplex64Array( v1, v2, maxULP )
@@ -90,7 +90,7 @@ bool = isAlmostSameValueComplex64Array( x, [ 1.0, 2.0 ], 1 );
 
 ```javascript
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
-import isAlmostSameValueComplex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-same-value-complex64array@deno/mod.js';
+import isAlmostSameValueComplex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-same-value-complex64array@v0.1.0-deno/mod.js';
 
 var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
 var y = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
